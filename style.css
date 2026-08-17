@@ -52,6 +52,8 @@ NAVBAR ↓
 nav {
     display: flex;
     padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__row {
@@ -66,6 +68,23 @@ nav {
     padding-bottom: 4px;
 }
 
+.nav__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav__link--primary {
+    background-color: #6415ff;
+    color: white;
+    padding: 20px 32px;
+    border-radius: 40px;
+}
 
 .btn__menu {
     display: none;

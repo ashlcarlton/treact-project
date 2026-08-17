@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Treact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -17,16 +17,22 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                <!--  -->Nav Logo here<!--  -->
+                    <figure>
+                        <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+                    </figure>
                 </div>
-                <!--  -->Enter Nav Links here<!--  -->
+                <div class="nav_links">
+                    <a href="#about" class="nav__link" onclink="closeMenu()">About</a>
+                    <a href="#blog" class="nav__link" onclink="closeMenu()">Blog</a>
+                    <a href="#pricing" class="nav__link" onclink="closeMenu()">Pricing</a>
+                    <a href="#contact" class="nav__link" onclink="closeMenu()">Contact Us</a>
+                    <a href="#login" class="nav__link">Login</a>
+                    <a href="#signup" class="nav__link nav__link--primary">Sign Up</a>
+                </div>
                 <button class="btn__menu" onclick="openMenu()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="btn__menu--svg">
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
                 </button>
             </div>
@@ -56,7 +62,8 @@
             </div>
         </header>
     </section>
-    <main>
+
+    <main>        
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
@@ -64,6 +71,7 @@
                 </div>
             </div>
         </section>
+
         <section id="quality">
             <div class="container">
                 <div class="row">
@@ -71,6 +79,7 @@
                 </div>
             </div>
         </section>
+
         <section id="steps">
             <div class="container">
                 <div class="row">
@@ -78,6 +87,7 @@
                 </div>
             </div>
         </section>
+
         <section id="values">
             <div class="container">
                 <div class="row">
@@ -85,6 +95,7 @@
                 </div>
             </div>
         </section>
+
         <section id="pricing">
             <div class="container">
                 <div class="row">
@@ -92,6 +103,7 @@
                 </div>
             </div>
         </section>
+
         <section id="testimonials">
             <div class="container">
                 <div class="row">
@@ -99,6 +111,7 @@
                 </div>
             </div>
         </section>
+
         <section id="start">
             <div class="container">
                 <div class="row">
@@ -107,6 +120,7 @@
             </div>
         </section>
     </main>
+
     <footer>
         <div class="row footer__row">
             <!--  -->Enter Footer<!--  -->
