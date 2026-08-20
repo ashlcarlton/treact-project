@@ -177,7 +177,7 @@ header .row {
 
 .header__description {
     padding: 24px;
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
 }
@@ -209,11 +209,21 @@ header .row {
     color: white;
     padding: 20px 32px;
     border-radius: 40px;
+    font-size: 14px;
 }
 
 .header__customers--title {
     margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+}
 
+.header__customers {
+    margin-top: 24px;
+    color: #a0aec0;
+    padding-right: 64px;
+    opacity: 0.5;
 }
 
 .header__img {
@@ -221,7 +231,8 @@ header .row {
 }
 
 .header__img--wrapper {
-    width: 60%;
+    width: 50%;
+    align-items: right;
 }
 
 
